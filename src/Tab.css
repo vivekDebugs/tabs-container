@@ -1,0 +1,28 @@
+.tab {
+    padding: .5rem;
+    width: 6rem;
+    height: 100%;
+    background-color: #ededed;
+    border: 1px solid white;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+}
+
+.tab:hover {
+    opacity: .8;
+}
+
+.tab__close {
+    display: none;
+}
+
+.tab:hover .tab__close {
+    display: block;
+}
+
+.tab.active {
+    border-bottom: 4px solid tomato;
+}

@@ -115,11 +115,7 @@ function App() {
 	return (
 		<div className='app'>
 			<div className='app__container'>
-				<div
-					className='app__tabsContainer'
-					ref={ref}
-					id='tabsContainer'
-				>
+				<div className='app__tabsContainer' ref={ref} id='tabsContainer'>
 					{tabs.map((tab, index) => (
 						<Tab
 							tab={tab}
